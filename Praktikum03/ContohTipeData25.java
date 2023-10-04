@@ -1,6 +1,6 @@
 public class ContohTipeData25 {
     public static void main(String[] args) {
-        char GolonganDarah = 'B';
+        char GolonganDarah = 'A';
         short JumlahPenduduk = 2700;
         float suhu = 60.50f;
         double berat = 58.45;

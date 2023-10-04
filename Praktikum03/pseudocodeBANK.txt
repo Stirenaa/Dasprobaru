@@ -1,0 +1,14 @@
+Algoritma : BANK25
+Deklarasi:
+tabunganAwal,tabunganAkhir,bunga,persentaseBunga : double
+lama menabung : int
+persentaseBunga :0,0002
+    Deskripsi:
+    1. print("Masukkan jumlah tabungan awal: ")
+    2. read tabunganAwal
+    3. print("Masukkan lama menabung(bulan): ")
+    4. read lamaMenabung 
+    5. bunga = persentaseBunga * lamaMenabung * tabunganAwal
+    6. tabunganAkhir = tabunganAwal + bunga;
+    7. print("Bunga: " + bunga)
+    8. print("Tabungan akhir: " + tabunganAkhir)
