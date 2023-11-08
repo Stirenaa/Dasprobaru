@@ -49,4 +49,4 @@ public class BioskopWithScanner25 {
 
         input.close();
     }
-}
+}//nyoba
