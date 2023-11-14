@@ -44,7 +44,7 @@ public class Bioskop25 {
         //     System.out.println(i);
         // }
 
-        //Soal Nomor 12
+        //Soal Nomor 12 LMS
         for (int i = 0; i < penonton.length; i++){
             System.out.println("Penonton pada baris ke-" + (i+1) + ": " +String.join(",",penonton[i]));
         }
