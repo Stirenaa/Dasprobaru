@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Bank25{
+    public static void main(String[] args) {
+        int lamaMenabung;
+        double tabunganAwal,
+               tabunganAkhir,
+               bunga,
+               persentaseBunga;
+        
+    Scanner sc = new Scanner(System.in);
+
+    persentaseBunga = 0.0002;
+    System.out.print("Masukkan jumlah tabungan awal: ");
+    tabunganAwal = sc.nextDouble();
+    System.out.print("Masukkan lama menabung(bulan): ");
+    lamaMenabung = sc.nextInt();
+
+    bunga = persentaseBunga * lamaMenabung * tabunganAwal;
+    tabunganAkhir = tabunganAwal + bunga;
+
+    System.out.print("Bunga: " + bunga);
+    System.out.print("Tabungan akhir: " + tabunganAkhir);
+
+    
+}
+}
