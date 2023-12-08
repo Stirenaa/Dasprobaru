@@ -6,5 +6,6 @@ public class CobaArgs25 {
         for (int i = 0; i < args.length; i++){
             System.out.println(args[i]);
         }
+        return;
     }
 }
